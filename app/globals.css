@@ -1,0 +1,435 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --primary: 267 100% 58%;
+}
+
+/* Adicionar transições suaves globais */
+* {
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Melhorar animação de fade-up */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes particle-float {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-10px) translateX(10px);
+  }
+  50% {
+    transform: translateY(0) translateX(20px);
+  }
+  75% {
+    transform: translateY(10px) translateX(10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+  will-change: transform, opacity;
+}
+
+.animate-rotate {
+  animation: rotate 20s linear infinite;
+}
+
+.animate-particle {
+  animation: particle-float 8s ease-in-out infinite;
+}
+
+.glass-effect {
+  @apply bg-black/40 backdrop-blur-xl border border-white/10 rounded-3xl;
+}
+
+.glass-card {
+  @apply bg-black/40 backdrop-blur-xl border border-[#8c2aff]/10 rounded-2xl md:rounded-3xl relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(120deg, transparent 20%, rgba(140, 42, 255, 0.1), transparent 80%);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.glass-card:hover {
+  @apply border-[#8c2aff]/30 bg-black/60;
+  transform: translateY(-5px);
+}
+
+.glass-card:hover::after {
+  opacity: 1;
+}
+
+.gradient-border {
+  position: relative;
+  background: linear-gradient(black, black) padding-box, linear-gradient(to right, #8c2aff, transparent) border-box;
+  border: 1px solid transparent;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(140, 42, 255, 0.1) 0%, transparent 70%);
+}
+
+.text-gradient {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+  background: linear-gradient(135deg, #8c2aff 0%, #b975ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #8c2aff;
+  transform-origin: 0%;
+  z-index: 100;
+}
+
+.geometric-shape {
+  position: absolute;
+  border: 1px solid rgba(140, 42, 255, 0.3);
+  opacity: 0.5;
+}
+
+.geometric-shape.circle {
+  border-radius: 50%;
+}
+
+.geometric-shape.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.cyber-button {
+  @apply relative overflow-hidden bg-transparent text-white px-8 py-4 rounded-2xl;
+  border: 1px solid #8c2aff;
+  transition: all 0.3s ease;
+}
+
+.cyber-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, #8c2aff20, transparent);
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.cyber-button:hover::before {
+  transform: translateX(100%);
+}
+
+.cyber-button:hover {
+  background-color: #8c2aff;
+  box-shadow: 0 0 20px rgba(140, 42, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.cyber-button:active {
+  transform: translateY(0);
+}
+
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #8c2aff;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.article-card-hover {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.article-card-hover:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+}
+
+.shine-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-effect::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    transparent,
+    transparent,
+    transparent,
+    rgba(140, 42, 255, 0.2),
+    transparent
+  );
+  transform: rotate(45deg);
+  animation: shine 3s ease-in-out infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+/* Otimizar transições */
+.transition-all {
+  @apply duration-300 ease-in-out;
+  will-change: transform, opacity;
+}
+
+/* Melhorar responsividade do conteúdo */
+.article-content {
+  @apply px-4 md:px-0;
+}
+
+.article-content h1 {
+  @apply text-2xl md:text-4xl font-bold mb-6;
+}
+
+.article-content h2 {
+  @apply text-xl md:text-3xl font-bold mt-8 mb-4;
+}
+
+.article-content h3 {
+  @apply text-lg md:text-2xl font-bold mt-6 mb-3;
+}
+
+.article-content p {
+  @apply text-base md:text-lg text-white/80 leading-relaxed mb-4;
+}
+
+.article-content ul,
+.article-content ol {
+  @apply my-4 ml-6 space-y-2;
+}
+
+.article-content li {
+  @apply text-white/80;
+}
+
+.article-content pre {
+  @apply p-4 rounded-lg bg-black/50 overflow-x-auto my-4;
+}
+
+.article-content code {
+  @apply text-sm md:text-base font-mono bg-black/30 rounded px-1;
+}
+
+.article-content img {
+  @apply rounded-lg;
+}
+
+.article-content blockquote {
+  @apply border-l-4 border-purple-500 pl-4 italic my-4 text-white/70;
+}
+
+.article-content a {
+  @apply text-purple-400 hover:text-purple-300 underline underline-offset-2;
+}
+
+/* Melhorar scroll suave */
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 5rem;
+}
+
+/* Melhorar acessibilidade do foco */
+:focus-visible {
+  @apply outline-none ring-2 ring-purple-500 ring-offset-2 ring-offset-black;
+}
+
+/* Melhorar seleção de texto */
+::selection {
+  @apply bg-purple-500/30 text-white;
+}
+
+/* Melhorar scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-500/50 rounded-full hover:bg-purple-500/70;
+}
+
+/* Melhorar responsividade de imagens */
+img {
+  @apply max-w-full h-auto;
+}
+
+/* Melhorar responsividade de inputs */
+input,
+textarea {
+  @apply w-full px-4 py-2 rounded-lg bg-white/10 border border-purple-500/20 text-white placeholder-white/50 focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all duration-300;
+}
+
+/* Melhorar responsividade de botões */
+button {
+  @apply whitespace-nowrap;
+}
+
+/* Garantir que o conteúdo não fique sob a navegação fixa */
+body {
+  scroll-padding-top: 5rem;
+  @apply overflow-x-hidden;
+}
+
+/* Melhorar menu mobile */
+.mobile-menu-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.mobile-menu-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.mobile-menu-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.mobile-menu-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.mobile-menu-button {
+  animation: float-button 3s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(140, 42, 255, 0.3);
+}
+
+@keyframes float-button {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) scale(1.05);
+  }
+}
+
+/* Melhorar navegação */
+.nav-link {
+  @apply relative;
+}
+
+.nav-link::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-purple-400 transition-all duration-300;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  @apply w-full;
+}
+
+/* Melhorar responsividade do header */
+@media (max-width: 768px) {
+  .glass-effect {
+    @apply rounded-xl;
+  }
+
+  .nav-container {
+    @apply px-4;
+  }
+}
+
+/* Garantir scroll suave */
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Forçar scroll para o topo */
+html,
+body {
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
+}
+

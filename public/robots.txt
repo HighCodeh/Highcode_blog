@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://highcode.com.br/sitemap.xml
+
+# Paths principais
+Allow: /blog/
+Allow: /tutoriais/
+Allow: /sobre/
+Allow: /images/
+
+# Arquivos estáticos
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.css$
+Allow: /*.js$
+
+# Evitar duplicação de conteúdo
+Disallow: /api/
+Disallow: /_next/
+

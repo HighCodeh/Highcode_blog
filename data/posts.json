@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "slug": "introducao-high-boy",
+      "title": "High Boy: O que é e para que serve ?",
+      "date": "2024-02-25",
+      "excerpt": "Conheça o High Boy, uma ferramenta penteste para geerks e entusiadas.",
+      "author": "High Code Team",
+      "category": "hardware",
+      "coverImage": "/posty.webp",
+      "readTime": "26/02/25",
+      "tags": [
+        "high boy",
+        "hardware hacking",
+        "pentest",
+        "segurança",
+        "hacking"
+      ],
+      "content": "# High Boy: O Futuro do Hardware Hacking\n\nO High Boy é uma ferramenta prática para hardware hacking, projetada para atender tanto profissionais quanto entusiastas que buscam uma solução eficiente para análises e testes. Com um design robusto e interface intuitiva, o High Boy combina funcionalidades avançadas com a facilidade de uso, facilitando a identificação de vulnerabilidades e a realização de pentests em dispositivos variados.\n\n![](/hb.jpg)\n\n## Características Principais\n\nO High Boy destaca-se por suas capacidades na análise e teste de sistemas de comunicação, como Wi-Fi, Bluetooth Low Energy (BLE), radiofrequência (RF), Near Field Communication (NFC) e infravermelho.\n\nEle permite monitorar, repetir e analisar sinais desses sistemas, facilitando a identificação de vulnerabilidades e a implementação de melhorias de segurança.\n\n​Com essas funcionalidades, o High Boy se posiciona como uma solução completa para profissionais que necessitam de ferramentas eficazes na análise e segurança de sistemas embarcados e de comunicação, proporcionando uma plataforma integrada para diversas necessidades em hardware hacking.\n\n### 2. Suporte a Múltiplos Protocolos \n\n![](/info_blog.webp)\n\n\n\nAlém de ser uma poderosa ferramenta para hardware hacking, pentesting e eletrônica, o High Boy também serve como uma plataforma educativa única, permitindo que os usuários adquiram habilidades práticas em diversas áreas de segurança cibernética e design de sistemas embarcados.\n\n### 3. Uma Ferramenta Educacional Completa\n\nO High Boy oferece uma excelente oportunidade para quem deseja aprender de forma prática sobre a análise de sistemas de comunicação, a detecção de vulnerabilidades e o desenvolvimento de soluções de segurança. Ele pode ser utilizado em laboratórios educacionais, proporcionando um ambiente dinâmico onde os alunos podem explorar e experimentar com protocolos de comunicação, como Wi-Fi, Bluetooth, NFC, RF, e muito mais.\n\nAlém disso, ele facilita o aprendizado de eletrônica aplicada, ajudando os alunos a compreender os princípios de operação de dispositivos embarcados e a interação entre eles. Por meio da simulação de falhas e fuzzing, por exemplo, o High Boy ajuda a explicar como as vulnerabilidades podem ser exploradas e corrigidas, preparando os estudantes para os desafios do mundo real.\n\nCom seu design intuitivo e suporte a múltiplos protocolos, o High Boy é uma excelente escolha para qualquer laboratório educacional ou para quem busca se aprimorar na segurança de dispositivos conectados. Sua flexibilidade e poder de análise também o tornam uma ferramenta indispensável para profissionais da área, permitindo a detecção e mitigação de vulnerabilidades em tempo real. Fique atento às atualizações e novidades sobre o High Boy em nossas redes sociais e comunidade! Estamos sempre prontos para compartilhar novas atualizações."
+    },
+    {
+      "slug": "crowdfunding-high-boy",
+      "title": "Como será lançado o High Boy?",
+      "date": "2024-02-26",
+      "excerpt": "O High Boy será lançado através de uma campanha de crowdfunding, unindo tecnologia e comunidade.",
+      "author": "Vinícius Pinheiro",
+      "category": "Crowdfunding",
+      "coverImage": "/crow_blog.webp",
+      "readTime": "26/02/25",
+      "tags": ["crowdfunding", "tecnologia", "financiamento coletivo", "High Boy"],
+      "content": "# Crowdfunding: O Lançamento do High Boy Feito por Todos!\n\nO **High Boy** será lançado através de uma campanha de **crowdfunding**, um modelo de financiamento coletivo que permite que a comunidade participe diretamente. Mas o que isso significa na prática?\n\n## O Que É Crowdfunding?\n\nCrowdfunding é uma forma de arrecadar recursos para um projeto com o apoio de várias pessoas. Em vez de depender de grandes investidores, contamos com a contribuição de quem acredita na ideia e quer ver o **High Boy** no mercado. É uma maneira democrática e colaborativa de transformar um sonho em realidade!\n\n## Como Funciona o Lançamento?\n\n1. **Campanha Online**: Criaremos uma página em uma plataforma de crowdfunding, onde você poderá conhecer todos os detalhes do High Boy, ver protótipos e entender como ele funciona.\n2. **Apoio da Comunidade**: Qualquer pessoa poderá contribuir e, em troca, receberá o High Boy ou até em edições limitadas\n3. **Transparência Total**: Durante toda a campanha, vamos compartilhar atualizações, vídeos e fotos para que todos acompanhem o progresso da produção.\n\n## Como Acompanhar e Participar?\n\nPara ficar por dentro de tudo e não perder o lançamento da campanha:\n- **Siga nossas redes sociais**: Estamos sempre compartilhando novidades por lá.\n- **Participe da comunidade**: Deixe seu feedback, sugestões e dúvidas. Queremos ouvir você!\n- **Prepare-se**: Quando a campanha estiver no ar, cada contribuição fará a diferença.\n\nO **High Boy** é um projeto feito por vocês, para vocês. Vamos juntos nessa jornada!"
+    },
+    {
+      "slug": "primeiro-prototipo-high-boy",
+      "title": "O Primeiro Protótipo do High Boy: Desafios e Melhorias",
+      "date": "2024-02-26",
+      "excerpt": "O primeiro protótipo do High Boy trouxe aprendizados valiosos, especialmente em hardware. Descubra os desafios e as melhorias que estamos trabalhando!",
+      "author": "Vinícius Pinheiro",
+      "category": "Desenvolvimento",
+      "coverImage": "/foto1.jpeg",
+      "readTime": "26/02/25",
+      "tags": ["hardware", "prototipo", "tecnologia", "High Boy"],
+      "content": "# O Primeiro Protótipo do High Boy: Aprendizados e Melhorias\n\nO desenvolvimento do **High Boy** começou com um primeiro protótipo, que nos trouxe muitos aprendizados e insights valiosos. Embora tenhamos encontrado desafios, principalmente no hardware, cada erro foi uma oportunidade para evoluir. Vamos compartilhar um pouco dessa jornada!\n\n## O Que Aprendemos com o Primeiro Protótipo?\n\n1. **Desafios no Hardware**:\n   - **Tamanho**: Como é um primeiro protótipo, entendemos os tamanhos, mas ainda não está no tamanho ideal.\n   - **Pinagem**: Tivemos um erro de pinagem ao conectar pinos que compartilham memória SRAM do ESP32-S3, o que fez com que os periféricos conectados nesses pinos entrassem em conflito.\n   - **Posicionamento**: Alguns componentes estavam mal posicionados, principalmente na parte da frente, onde ficam os botões e a tela, mas isso era esperado para um primeiro protótipo.\n\n2. **Melhorias em Andamento**:\n   - **Tamanho**: Estamos ajustando o tamanho para uma pegada mais ergonômica e uma portabilidade melhor.\n   - **Pontos de teste**: Vamos implementar pontos de teste para facilitar a avaliação e a depuração de erros no hardware.\n   - **Ajustar pinagem**: Estamos corrigindo a conexão de periféricos, como o CC1101 e o display, para evitar conflitos.\n\n3. **Feedback da Comunidade**:\n   - Durante os testes, ouvimos sugestões de vocês, como a necessidade de portas adicionais e maior compatibilidade com dispositivos externos. Essas ideias estão sendo incorporadas ao próximo protótipo.\n\n![](/proto.jpeg)\n\n## Como Acompanhar o Progresso?\n\n- **Siga nossas redes sociais**: Compartilhamos atualizações frequentes sobre o desenvolvimento.\n- **Participe da comunidade**: Sua opinião é essencial para moldar o High Boy.\n- **Fique de olho**: Em breve, teremos mais novidades sobre o próximo protótipo!\n\nO caminho para criar o **High Boy** perfeito é cheio de desafios, mas cada passo nos aproxima de um produto incrível. Agradecemos a todos que estão conosco nessa jornada!"
+    }
+  ]
+}
+
