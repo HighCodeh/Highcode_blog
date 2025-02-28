@@ -2,7 +2,7 @@
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Clock, ArrowRight } from 'lucide-react'
+import { Clock, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import type { Post } from "@/lib/posts"
@@ -11,15 +11,21 @@ import { ParticleBackground } from "@/components/particle-background"
 import { GeometricDecorations } from "@/components/geometric-decorations"
 import { MainNav } from "@/components/main-nav"
 import { SocialLinks } from "@/components/social-links"
+import { useRouter } from "next/navigation"
 
 interface HomePageProps {
   initialPosts: Post[]
 }
 
 export default function HomePage({ initialPosts }: HomePageProps) {
+  const router = useRouter()
   const posts = initialPosts.sort((a, b) => (a.date < b.date ? 1 : -1))
   const featuredPost = posts[0]
   const otherPosts = posts.slice(1)
+
+  const handleViewAll = () => {
+    router.push("/blog")
+  }
 
   return (
     <main className="min-h-screen bg-black text-white">
@@ -45,10 +51,10 @@ export default function HomePage({ initialPosts }: HomePageProps) {
             Fique por dentro dos detalhes do desenvolvimento do High Boy !
           </p>
           <div className="flex gap-4 justify-center">
-            <Button 
+            <Button
               className="glass-effect px-8 py-6 text-lg hover:bg-[#8c2aff]/20 transition-all duration-300"
               onClick={() => {
-                document.getElementById('latest-posts')?.scrollIntoView({ behavior: 'smooth' });
+                document.getElementById("latest-posts")?.scrollIntoView({ behavior: "smooth" })
               }}
             >
               Últimos Artigos
@@ -82,6 +88,8 @@ export default function HomePage({ initialPosts }: HomePageProps) {
                       fill
                       sizes="(max-width: 768px) 100vw, 50vw"
                       priority
+                      placeholder="blur"
+                      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAwIiBoZWlnaHQ9IjQ3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent md:hidden"></div>
@@ -114,7 +122,13 @@ export default function HomePage({ initialPosts }: HomePageProps) {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-16">
             <h2 className="text-4xl font-bold text-gradient">Últimos Artigos</h2>
-            <Link href="/blog"></Link>
+            <Button
+              onClick={handleViewAll}
+              className="flex items-center gap-2 glass-effect px-4 py-2 rounded-lg hover:bg-[#8c2aff]/20 transition-all duration-300"
+            >
+              <span>Ver Todos</span>
+              <ArrowRight className="h-4 w-4" />
+            </Button>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -133,6 +147,9 @@ export default function HomePage({ initialPosts }: HomePageProps) {
                       alt={post.title}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      loading="lazy"
+                      placeholder="blur"
+                      blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzAwIiBoZWlnaHQ9IjQ3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -170,12 +187,12 @@ export default function HomePage({ initialPosts }: HomePageProps) {
             <p className="text-xl text-white/60 mb-12">
               Inscreva-se para receber as últimas novidades, tutoriais e dicas de segurança
             </p>
-            <Button 
-  className="glass-effect px-8 py-6 text-lg hover:bg-[#8c2aff]/20 transition-all duration-300"
-  onClick={() => window.location.href = 'https://highboy.com.br/cadastro/'}
->
-  Receber Novidades
-</Button>
+            <Button
+              className="glass-effect px-8 py-6 text-lg hover:bg-[#8c2aff]/20 transition-all duration-300"
+              onClick={() => (window.location.href = "https://highboy.com.br/cadastro/")}
+            >
+              Receber Novidades
+            </Button>
           </div>
         </div>
       </section>
@@ -184,3 +201,4 @@ export default function HomePage({ initialPosts }: HomePageProps) {
     </main>
   )
 }
+

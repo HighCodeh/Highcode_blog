@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { Toaster } from "sonner"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = Inter({
   subsets: ["latin"],
@@ -48,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://highcode.com.br",
+    url: "https://highboy.com.br",
     siteName: "High Code Blog",
     title: "High Code Blog - Hardware Hacking e Segurança",
     description: "Blog especializado em Hardware Hacking, Pentest e Segurança da Informação",
@@ -89,11 +91,13 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://highcode.com.br" />
+        <link rel="canonical" href="https://highboy.com.br" />
         <meta name="theme-color" content="#8c2aff" />
       </head>
       <body className={inter.className}>
         {children}
+        <Analytics />
+        <SpeedInsights />
         <Toaster position="top-center" />
       </body>
     </html>

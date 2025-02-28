@@ -27,14 +27,7 @@ export function MainNav() {
     <>
 
 
-      {/* Botão do Menu Mobile */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-50 md:hidden bg-purple-500 text-white p-4 rounded-full shadow-lg hover:bg-purple-600 transition-all duration-300 flex items-center justify-center mobile-menu-button"
-        aria-label={isOpen ? "Close menu" : "Open menu"}
-      >
-        {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-      </button>
+
 
       {/* Menu Mobile Overlay */}
       {isOpen && (

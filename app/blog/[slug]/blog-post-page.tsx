@@ -7,6 +7,8 @@ import ReactMarkdown from "react-markdown"
 import { Separator } from "@/components/ui/separator"
 import { MainNav } from "@/components/main-nav"
 import { BackButton } from "@/components/back-button"
+import { ArrowLeft } from "lucide-react"
+import Link from "next/link"
 
 interface BlogPostPageProps {
   post: Post
@@ -111,6 +113,16 @@ export default function BlogPostPage({ post }: BlogPostPageProps) {
           </div>
         </div>
       </article>
+      <Link
+        href="/"
+        className="fixed bottom-6 left-6 p-3 rounded-full bg-purple-600 text-white shadow-lg hover:bg-purple-700 transition-all duration-300 z-50 flex items-center justify-center group"
+        aria-label="Back to home"
+      >
+        <ArrowLeft className="w-5 h-5" />
+        <span className="absolute left-full ml-2 bg-purple-700 text-white text-sm py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+          Voltar ao início
+        </span>
+      </Link>
     </main>
   )
 }
