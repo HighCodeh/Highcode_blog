@@ -3,12 +3,12 @@
     {
       "slug": "introducao-high-boy",
       "title": "High Boy: O que é e para que serve ?",
-      "date": "2024-02-25",
-      "excerpt": "Conheça o High Boy, uma ferramenta penteste para geerks e entusiadas.",
+      "date": "25-02-2025",
+      "excerpt": "Conheça o High Boy, uma ferramenta penteste para geerks e entusiadas. Ler mais....",
       "author": "High Code Team",
       "category": "hardware",
       "coverImage": "/posty.webp",
-      "readTime": "26/02/25",
+      "readTime": "25/02/25",
       "tags": [
         "high boy",
         "hardware hacking",
@@ -21,24 +21,24 @@
     {
       "slug": "crowdfunding-high-boy",
       "title": "Como será lançado o High Boy?",
-      "date": "2024-02-26",
+      "date": "23-02-2025",
       "excerpt": "O High Boy será lançado através de uma campanha de crowdfunding, unindo tecnologia e comunidade.",
       "author": "Vinícius Pinheiro",
       "category": "Crowdfunding",
       "coverImage": "/crow_blog.webp",
-      "readTime": "26/02/25",
+      "readTime": "23/02/25",
       "tags": ["crowdfunding", "tecnologia", "financiamento coletivo", "High Boy"],
       "content": "# Crowdfunding: O Lançamento do High Boy Feito por Todos!\n\nO **High Boy** será lançado através de uma campanha de **crowdfunding**, um modelo de financiamento coletivo que permite que a comunidade participe diretamente. Mas o que isso significa na prática?\n\n## O Que É Crowdfunding?\n\nCrowdfunding é uma forma de arrecadar recursos para um projeto com o apoio de várias pessoas. Em vez de depender de grandes investidores, contamos com a contribuição de quem acredita na ideia e quer ver o **High Boy** no mercado. É uma maneira democrática e colaborativa de transformar um sonho em realidade!\n\n## Como Funciona o Lançamento?\n\n1. **Campanha Online**: Criaremos uma página em uma plataforma de crowdfunding, onde você poderá conhecer todos os detalhes do High Boy, ver protótipos e entender como ele funciona.\n2. **Apoio da Comunidade**: Qualquer pessoa poderá contribuir e, em troca, receberá o High Boy ou até em edições limitadas\n3. **Transparência Total**: Durante toda a campanha, vamos compartilhar atualizações, vídeos e fotos para que todos acompanhem o progresso da produção.\n\n## Como Acompanhar e Participar?\n\nPara ficar por dentro de tudo e não perder o lançamento da campanha:\n- **Siga nossas redes sociais**: Estamos sempre compartilhando novidades por lá.\n- **Participe da comunidade**: Deixe seu feedback, sugestões e dúvidas. Queremos ouvir você!\n- **Prepare-se**: Quando a campanha estiver no ar, cada contribuição fará a diferença.\n\nO **High Boy** é um projeto feito por vocês, para vocês. Vamos juntos nessa jornada!"
     },
     {
       "slug": "primeiro-prototipo-high-boy",
       "title": "O Primeiro Protótipo do High Boy: Desafios e Melhorias",
-      "date": "2024-02-26",
+      "date": "22-02-2025",
       "excerpt": "O primeiro protótipo do High Boy trouxe aprendizados valiosos, especialmente em hardware. Descubra os desafios e as melhorias que estamos trabalhando!",
       "author": "Vinícius Pinheiro",
       "category": "Desenvolvimento",
       "coverImage": "/foto1.jpeg",
-      "readTime": "26/02/25",
+      "readTime": "22/02/25",
       "tags": ["hardware", "prototipo", "tecnologia", "High Boy"],
       "content": "# O Primeiro Protótipo do High Boy: Aprendizados e Melhorias\n\nO desenvolvimento do **High Boy** começou com um primeiro protótipo, que nos trouxe muitos aprendizados e insights valiosos. Embora tenhamos encontrado desafios, principalmente no hardware, cada erro foi uma oportunidade para evoluir. Vamos compartilhar um pouco dessa jornada!\n\n## O Que Aprendemos com o Primeiro Protótipo?\n\n1. **Desafios no Hardware**:\n   - **Tamanho**: Como é um primeiro protótipo, entendemos os tamanhos, mas ainda não está no tamanho ideal.\n   - **Pinagem**: Tivemos um erro de pinagem ao conectar pinos que compartilham memória SRAM do ESP32-S3, o que fez com que os periféricos conectados nesses pinos entrassem em conflito.\n   - **Posicionamento**: Alguns componentes estavam mal posicionados, principalmente na parte da frente, onde ficam os botões e a tela, mas isso era esperado para um primeiro protótipo.\n\n2. **Melhorias em Andamento**:\n   - **Tamanho**: Estamos ajustando o tamanho para uma pegada mais ergonômica e uma portabilidade melhor.\n   - **Pontos de teste**: Vamos implementar pontos de teste para facilitar a avaliação e a depuração de erros no hardware.\n   - **Ajustar pinagem**: Estamos corrigindo a conexão de periféricos, como o CC1101 e o display, para evitar conflitos.\n\n3. **Feedback da Comunidade**:\n   - Durante os testes, ouvimos sugestões de vocês, como a necessidade de portas adicionais e maior compatibilidade com dispositivos externos. Essas ideias estão sendo incorporadas ao próximo protótipo.\n\n![](/proto.jpeg)\n\n## Como Acompanhar o Progresso?\n\n- **Siga nossas redes sociais**: Compartilhamos atualizações frequentes sobre o desenvolvimento.\n- **Participe da comunidade**: Sua opinião é essencial para moldar o High Boy.\n- **Fique de olho**: Em breve, teremos mais novidades sobre o próximo protótipo!\n\nO caminho para criar o **High Boy** perfeito é cheio de desafios, mas cada passo nos aproxima de um produto incrível. Agradecemos a todos que estão conosco nessa jornada!"
     }

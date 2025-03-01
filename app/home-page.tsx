@@ -122,13 +122,6 @@ export default function HomePage({ initialPosts }: HomePageProps) {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-16">
             <h2 className="text-4xl font-bold text-gradient">Últimos Artigos</h2>
-            <Button
-              onClick={handleViewAll}
-              className="flex items-center gap-2 glass-effect px-4 py-2 rounded-lg hover:bg-[#8c2aff]/20 transition-all duration-300"
-            >
-              <span>Ver Todos</span>
-              <ArrowRight className="h-4 w-4" />
-            </Button>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -189,7 +182,7 @@ export default function HomePage({ initialPosts }: HomePageProps) {
             </p>
             <Button
               className="glass-effect px-8 py-6 text-lg hover:bg-[#8c2aff]/20 transition-all duration-300"
-              onClick={() => (window.location.href = "https://highboy.com.br/cadastro/")}
+              onClick={() => (window.location.href = "https://newslette-omega.vercel.app/")}
             >
               Receber Novidades
             </Button>
