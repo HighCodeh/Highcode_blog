@@ -3,7 +3,7 @@
     {
       "slug": "introducao-high-boy",
       "title": "High Boy: O que é e para que serve ?",
-      "date": "25-02-2025",
+      "date": "25/02/2025",
       "excerpt": "Conheça o High Boy, uma ferramenta penteste para geerks e entusiadas. Ler mais....",
       "author": "High Code Team",
       "category": "hardware",
@@ -21,7 +21,7 @@
     {
       "slug": "crowdfunding-high-boy",
       "title": "Como será lançado o High Boy?",
-      "date": "23-02-2025",
+      "date": "23/02/2025",
       "excerpt": "O High Boy será lançado através de uma campanha de crowdfunding, unindo tecnologia e comunidade.",
       "author": "Vinícius Pinheiro",
       "category": "Crowdfunding",
@@ -33,7 +33,7 @@
     {
       "slug": "primeiro-prototipo-high-boy",
       "title": "O Primeiro Protótipo do High Boy: Desafios e Melhorias",
-      "date": "22-02-2025",
+      "date": "22/02/2025",
       "excerpt": "O primeiro protótipo do High Boy trouxe aprendizados valiosos, especialmente em hardware. Descubra os desafios e as melhorias que estamos trabalhando!",
       "author": "Vinícius Pinheiro",
       "category": "Desenvolvimento",
@@ -41,6 +41,18 @@
       "readTime": "22/02/25",
       "tags": ["hardware", "prototipo", "tecnologia", "High Boy"],
       "content": "# O Primeiro Protótipo do High Boy: Aprendizados e Melhorias\n\nO desenvolvimento do **High Boy** começou com um primeiro protótipo, que nos trouxe muitos aprendizados e insights valiosos. Embora tenhamos encontrado desafios, principalmente no hardware, cada erro foi uma oportunidade para evoluir. Vamos compartilhar um pouco dessa jornada!\n\n## O Que Aprendemos com o Primeiro Protótipo?\n\n1. **Desafios no Hardware**:\n   - **Tamanho**: Como é um primeiro protótipo, entendemos os tamanhos, mas ainda não está no tamanho ideal.\n   - **Pinagem**: Tivemos um erro de pinagem ao conectar pinos que compartilham memória SRAM do ESP32-S3, o que fez com que os periféricos conectados nesses pinos entrassem em conflito.\n   - **Posicionamento**: Alguns componentes estavam mal posicionados, principalmente na parte da frente, onde ficam os botões e a tela, mas isso era esperado para um primeiro protótipo.\n\n2. **Melhorias em Andamento**:\n   - **Tamanho**: Estamos ajustando o tamanho para uma pegada mais ergonômica e uma portabilidade melhor.\n   - **Pontos de teste**: Vamos implementar pontos de teste para facilitar a avaliação e a depuração de erros no hardware.\n   - **Ajustar pinagem**: Estamos corrigindo a conexão de periféricos, como o CC1101 e o display, para evitar conflitos.\n\n3. **Feedback da Comunidade**:\n   - Durante os testes, ouvimos sugestões de vocês, como a necessidade de portas adicionais e maior compatibilidade com dispositivos externos. Essas ideias estão sendo incorporadas ao próximo protótipo.\n\n![](/proto.jpeg)\n\n## Como Acompanhar o Progresso?\n\n- **Siga nossas redes sociais**: Compartilhamos atualizações frequentes sobre o desenvolvimento.\n- **Participe da comunidade**: Sua opinião é essencial para moldar o High Boy.\n- **Fique de olho**: Em breve, teremos mais novidades sobre o próximo protótipo!\n\nO caminho para criar o **High Boy** perfeito é cheio de desafios, mas cada passo nos aproxima de um produto incrível. Agradecemos a todos que estão conosco nessa jornada!"
+    },
+    {
+      "slug": "reta-final-campanha-high-boy",
+      "title": "Reta Final: Últimos 60 Dias da Campanha de Apoio ao desenvolvimento do High Boy",
+      "date": "03/03/2025",
+      "excerpt": "Estamos na reta final da campanha de apoio ao High Boy! Faltam apenas 60 dias para contribuir e garantir recompensas exclusivas como camisetas, figurinhas e descontos.",
+      "author": "Vinícius Pinheiro",
+      "category": "Campanha",
+      "coverImage": "/apoia.se.webp",
+      "readTime": "03/03/2025",
+      "tags": ["campanha", "financiamento", "tecnologia", "High Boy", "recompensas"],
+      "content": "# Reta Final: Últimos 60 Dias da Campanha de Apoio ao High Boy\n\nEstamos entrando na reta final da nossa campanha de apoio ao desenvolvimento do High Boy! Faltam apenas **60 dias** para o encerramento desta jornada incrível que tem nos permitido transformar o High Boy de um protótipo promissor em um produto revolucionário.\n\n## O Projeto High Boy: Do Protótipo à Realidade\n\nComo compartilhamos anteriormente, o desenvolvimento do High Boy começou com um primeiro protótipo que nos trouxe valiosos aprendizados. Superamos desafios de hardware, ajustamos tamanhos e corrigimos problemas de pinagem. Agora, com o apoio da nossa comunidade, estamos prontos para dar o próximo passo.\n\n![Protótipo do High Boy](/apoio.webp)\n\n## Contribua e Ganhe Recompensas Exclusivas\n\nSua contribuição para o desenvolvimento do High Boy não apenas ajuda a tornar este projeto uma realidade, mas também te garante recompensas exclusivas:\n\n### Recompensas para Apoiadores\n\n- Camisetas exclusivas do High Boy\n- Pacote de figurinhas colecionáveis\n- Acesso antecipado à plataforma de crowdfunding\n- Descontos exclusivos na compra do High Boy\n\n### Por que apoiar agora?\n\n- Apenas 60 dias restantes na campanha\n- Recompensas limitadas para os primeiros apoiadores\n- Ajude a acelerar o desenvolvimento final\n- Faça parte da história do High Boy\n\n## Como Sua Contribuição Faz a Diferença\n\nCada contribuição nos aproxima de finalizar o desenvolvimento do High Boy com todas as melhorias que identificamos ao longo do caminho.\n\n## Contagem Regressiva: 60 Dias\n\nNão perca a oportunidade de fazer parte deste projeto inovador. Sua contribuição agora garante não apenas as recompensas exclusivas, mas também a satisfação de ajudar a trazer o High Boy ao mundo.\n\n## Junte-se a Nós Nesta Jornada\n\nO caminho para criar o High Boy perfeito é cheio de desafios, mas cada passo nos aproxima de um produto incrível. Agradecemos a todos que estão conosco nessa jornada e convidamos você a fazer parte deste momento decisivo.\n\n[Contribua Agora e Garanta Suas Recompensas](https://apoia.se/highboy)"
     }
   ]
 }
