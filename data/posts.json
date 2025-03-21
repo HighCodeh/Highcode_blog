@@ -53,7 +53,20 @@
       "readTime": "03/03/2025",
       "tags": ["campanha", "financiamento", "tecnologia", "High Boy", "recompensas"],
       "content": "# Reta Final: Últimos 60 Dias da Campanha de Apoio ao High Boy\n\nEstamos entrando na reta final da nossa campanha de apoio ao desenvolvimento do High Boy! Faltam apenas **60 dias** para o encerramento desta jornada incrível que tem nos permitido transformar o High Boy de um protótipo promissor em um produto revolucionário.\n\n## O Projeto High Boy: Do Protótipo à Realidade\n\nComo compartilhamos anteriormente, o desenvolvimento do High Boy começou com um primeiro protótipo que nos trouxe valiosos aprendizados. Superamos desafios de hardware, ajustamos tamanhos e corrigimos problemas de pinagem. Agora, com o apoio da nossa comunidade, estamos prontos para dar o próximo passo.\n\n![Protótipo do High Boy](/apoio.webp)\n\n## Contribua e Ganhe Recompensas Exclusivas\n\nSua contribuição para o desenvolvimento do High Boy não apenas ajuda a tornar este projeto uma realidade, mas também te garante recompensas exclusivas:\n\n### Recompensas para Apoiadores\n\n- Camisetas exclusivas do High Boy\n- Pacote de figurinhas colecionáveis\n- Acesso antecipado à plataforma de crowdfunding\n- Descontos exclusivos na compra do High Boy\n\n### Por que apoiar agora?\n\n- Apenas 60 dias restantes na campanha\n- Recompensas limitadas para os primeiros apoiadores\n- Ajude a acelerar o desenvolvimento final\n- Faça parte da história do High Boy\n\n## Como Sua Contribuição Faz a Diferença\n\nCada contribuição nos aproxima de finalizar o desenvolvimento do High Boy com todas as melhorias que identificamos ao longo do caminho.\n\n## Contagem Regressiva: 60 Dias\n\nNão perca a oportunidade de fazer parte deste projeto inovador. Sua contribuição agora garante não apenas as recompensas exclusivas, mas também a satisfação de ajudar a trazer o High Boy ao mundo.\n\n## Junte-se a Nós Nesta Jornada\n\nO caminho para criar o High Boy perfeito é cheio de desafios, mas cada passo nos aproxima de um produto incrível. Agradecemos a todos que estão conosco nessa jornada e convidamos você a fazer parte deste momento decisivo.\n\n[Contribua Agora e Garanta Suas Recompensas](https://apoia.se/highboy)"
+    },
+    {
+      "slug": "estagio-inicial-case-high-booy",
+      "title": "Desenvolvimento da Case do High Booy",
+      "date": "21/03/2025",
+      "excerpt": "Iniciamos recentemente o trabalho no design e modelagem da case do High Booy, focando em detalhes mecânicos, encaixes e ergonomia para garantir um produto inovador.",
+      "author": "Vinícius Pinheiro",
+      "category": "Desenvolvimento",
+      "coverImage": "/case.webp",
+      "readTime": "21/03/2025",
+      "tags": ["desenvolvimento", "design", "High Booy", "protótipo", "ergonomia"],
+      "content": "# Estágio Inicial: Desenvolvimento da Case do High Booy\n\nIniciamos recentemente o trabalho no design e modelagem da case do High Booy. Como podem ver nas imagens, estamos concentrados na integração da parte interna com a mecânica dos botões, elemento essencial para o funcionamento e usabilidade do produto.\n\n## Design e Modelagem\n\nO projeto foi iniciado com base na tela de 1,54 polegadas, que serve como referência para a disposição dos componentes. Essa etapa é fundamental para alinhar as proporções e garantir que o design atenda aos padrões de portabilidade e ergonomia.\n\n## Detalhes e Ajustes\n\nEstamos trabalhando especialmente no encaixe da bateria, assim como em outros pontos críticos que exigem ajustes finos. Cada detalhe, desde a mecânica dos botões até o posicionamento interno, está sendo cuidadosamente desenvolvido para assegurar a máxima eficiência e conforto no uso.\n\n## Próximos Passos\n\nApós a finalização desta fase de modelagem, será impresso em impressão 3d, onde serão realizados testes de ergonomia, portabilidade e design. Essa validação é crucial para transformar o protótipo em um produto final de alta qualidade.\n\nFique atento às nossas próximas atualizações para acompanhar o desenvolvimento completo do High Booy e conhecer todas as inovações implementadas ao longo do processo."
     }
+    
   ]
 }
 
